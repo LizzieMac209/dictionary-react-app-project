@@ -1,14 +1,26 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className= "App-logo img-fluid" 
-        alt="logo" />
-        <h1>Hello</h1>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          Coded by{" "}
+          <a
+            href=" https://github.com/LizzieMac209/dictionary-react-app-project "
+            target="_blank"
+          >Lizzie Macfarlane
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
