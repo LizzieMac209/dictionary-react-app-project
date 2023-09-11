@@ -12,13 +12,16 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">
-          Coded by{" "}
-          <a
-            href=" https://github.com/LizzieMac209/dictionary-react-app-project "
-            target="_blank"
-          >Lizzie Macfarlane
-          </a>
+        <footer className="App-footer">
+          <small>
+            Coded by{" "}
+            <a
+              href=" https://github.com/LizzieMac209/dictionary-react-app-project "
+              target="_blank"
+            >
+              Lizzie Macfarlane
+            </a>
+          </small>
         </footer>
       </div>
     </div>
